@@ -1,0 +1,4 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+0,0,0,5,5,20,20,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+1,1,2,30,30,30,22,12,8,-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,1,drawn_seg 
+2,2,0,45,45,70,45,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 

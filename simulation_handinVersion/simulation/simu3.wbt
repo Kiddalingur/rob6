@@ -1,0 +1,4556 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  FPS 25
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.9997054141345488 0.023728859478943008 0.005101585821951778 4.710201547596103
+  position 50.94027189034705 66.31713282799014 40.604352337041604
+  follow "TIAGo Base"
+  followType "None"
+}
+Background {
+  skyColor [
+    0.376471 0.376471 0.376471
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+Floor {
+  translation 50 0 30
+  size 115 72
+  tileSize 1 1
+  appearance Grass {
+    IBLStrength 1.8
+  }
+}
+TiagoBase {
+  hidden position_0_0 4519.332377044337
+  hidden position_0_1 4636.676287507405
+  hidden position_0_2 0.028420425804379777
+  hidden position_0_3 0.0554864945256783
+  hidden position_0_4 -0.1114913564040678
+  hidden position_0_5 0.16427697939552
+  hidden translation_7 1.3169419332825782e-08 7.845137872664054e-09 0.02999594791070933
+  hidden rotation_7 0.004473099522310454 0.07313294395400805 -0.9973121697288584 5.611427766893939e-09
+  hidden rotation_11 -0.5191652621329393 -0.6043445819388731 0.6043468018245526 4.09931365042973
+  hidden rotation_12 0.9757738030835817 -0.15470182512830746 0.15470239338088468 1.5953220194552817
+  hidden rotation_13 0 0 1 0.028420425804373695
+  hidden position_13_0 18257.1757832022
+  hidden rotation_14 -0.5043784175743399 -0.6105733670635416 -0.6105756098288685 2.207307197566408
+  hidden rotation_15 0 0 1 0.055486494525675153
+  hidden position_15_0 18464.39559522613
+  hidden rotation_16 0.4565613774831924 0.6291060328191402 0.6291083436588746 3.9981837868634353
+  hidden rotation_17 0 0 -1 0.1114913564040683
+  hidden position_17_0 18330.48282890124
+  hidden rotation_18 0.253672947876834 -0.6839760955914292 -0.6839786079805285 3.638456015809919
+  hidden rotation_19 0 0 0.9999999999999999 0.16427697939551994
+  hidden position_19_0 18555.48476832433
+  hidden rotation_20 0.704256737727716 -0.5020062728628444 -0.5020081168382344 4.3687434467968735
+  translation 83.8818 0.181295 36.9767
+  rotation -0.033629213769438025 -0.7066421434219743 -0.7067715027653896 3.06968600109537
+  controller "drive"
+  supervisor TRUE
+  bodySlot [
+    Pen {
+      translation 0 -0.28 0
+      name "pen_paint"
+      locked TRUE
+      radarCrossSection 1
+      inkColor 1 1 1
+      inkDensity 0.8980392156862745
+      leadSize 23
+      maxDistance 50
+    }
+    InertialUnit {
+      name "inertial_unit"
+    }
+    Lidar {
+      translation 0 0 0.25
+      rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 -2.0943956132800112
+      name "top_lidar"
+      fieldOfView 6.28
+      verticalFieldOfView 0.1
+      numberOfLayers 1
+      minRange 0.3
+      maxRange 10
+    }
+  ]
+}
+Transform {
+  translation 51.00000125017662 0 20.000000000718156
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 52.44915848652862 0 19.999887241738396
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 54.06874731569229 0 19.999904990115883
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 55.612682921710814 0 19.999840406018723
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 55.99893019089897 0 21.458051278143124
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.248816176051506 0 23.254138769968712
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.50016179017648 0 25.061888705849594
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.75348512841729 0 26.88497574238382
+  children [
+    Shape {
+      appearance PBRAppearance {
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.99520279055761 0 28.62304742675959
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.9978884972621 0 28.64173561103342
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.012081330841255 0 30.442157081137463
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.01250045363991 0 32.26417086123573
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.01245101853316 0 34.101437088655366
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.01235224201823 0 35.962171532799594
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.0126315695567 0 37.85453807417837
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.01267757870015 0 38.62537299708812
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.000309571672744 0 39.86697622863805
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.786345160262165 0 41.818170064337416
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.043304482693 0 43.65131005152416
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 54.822903666967555 0 45.206117046308876
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 53.220303168178965 0 46.35997069926814
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 51.36131370051157 0 47.02247672562654
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 49.3895368595899 0 47.15064639473947
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.454561034150224 0 46.74229557382736
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 45.70717670334401 0 45.81629841253668
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 44.285966372818386 0 44.4435833594211
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 43.30291400709577 0 42.73154300750166
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.914173273508425 0 41.38107127872003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.82668436395276 0 39.4068801398921
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 43.27561915942614 0 37.48079133290253
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 44.238514845201315 0 35.753587025577794
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 45.641150008503224 0 34.362095178144116
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.37372105981892 0 33.41591411205977
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 49.30091098335935 0 32.98745152484626
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 51.27443272685378 0 33.095494283014105
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 53.1454113299953 0 33.73779677423158
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 54.76472235089553 0 34.871801621834614
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.00468272826647 0 36.40917746730361
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.76791904074932 0 38.22930252539202
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.99992218649027 0 39.901162775707775
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.03893215406798 0 41.26157647749836
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.25061486328628 0 40.516178267229925
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.279178920339376 0 39.5378928080106
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.31893522577765 0 38.555894578993424
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.369693818684375 0 37.56516397676727
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.42057243555942 0 36.57465144406749
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.47117451526225 0 35.58156037423087
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.522076207326975 0 34.590514859134665
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.57276220199283 0 33.60155071617514
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.6204049375925 0 32.61464133821317
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.67036823944794 0 31.63392098567658
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.72236586860861 0 30.660765728833084
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.78129824027762 0 29.693441990592092
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.829754357285175 0 28.740806119843757
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.68845507747989 0 28.87135406565573
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.759415292699835 0 30.636984509568055
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.810411267462314 0 32.45571936307245
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.861461485002025 0 34.290216661623084
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.912705057428845 0 36.14454782023687
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.96592012122061 0 38.0343488182726
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.98221323015818 0 38.62076591884022
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.9825160493566 0 38.63778140392194
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.997502608695804 0 39.87483289779934
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.81703573491327 0 41.848994583191
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.16359007087247 0 43.72446453499145
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.072668324451364 0 45.38314387496517
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 54.610222585782445 0 46.72391131337537
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 52.864930736983204 0 47.66513680645345
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 50.94261029055288 0 48.150181061732816
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 48.95806239978828 0 48.15792386802597
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.028252196122075 0 47.689673470401914
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 45.27103213512156 0 46.76495810481855
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 43.79373085670523 0 45.43981906323432
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.68648275221132 0 43.794362609290786
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.01627029775005 0 41.928558305781294
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.91336812580661 0 41.38364576881952
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.85046738395084 0 39.40019490974872
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.26378997395882 0 37.458028775768675
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 43.13801841186875 0 35.67504474924793
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 44.420441090347225 0 34.160320784093756
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 46.03359393986398 0 33.00629345888579
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.87947156410066 0 32.28287081008653
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 49.84701861517309 0 32.03126466652886
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 51.81931900635896 0 32.25649585479534
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 53.679045565882205 0 32.95339031808421
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 55.31179550451473 0 34.082562490941726
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.6179906793507 0 35.57580932939504
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.51817191183894 0 37.34253007687076
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.958370523817116 0 39.27578046018062
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.998103246343675 0 39.90220093025353
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.02886536143357 0 41.252543978231905
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.24291535326433 0 40.53934441782566
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.27659507777423 0 39.56210143648361
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.31843704480048 0 38.57817072063672
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.368925329699415 0 37.58826644625725
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.420780876406184 0 36.59938488098349
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.46992950543937 0 35.60684564199466
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.52031045257987 0 34.61199010576579
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.570388133389635 0 33.6212683241101
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.61888290603175 0 32.6338529925475
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.67066900922139 0 31.653624175644822
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.72315306125056 0 30.681386105920303
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.78206872149281 0 29.717213142096828
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.86111410509436 0 28.755209444822924
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.03207928987825 0 28.81554999343436
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.04091110423946 0 30.59684757814872
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.03579110557219 0 32.41706768322963
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.03029888619129 0 34.253298592040366
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.02419091218762 0 36.10939679327317
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.01870592051055 0 38.000515127848466
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.016824122418384 0 38.62574883322035
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.01690493605349 0 38.644850300997724
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.00225272353935 0 39.8746752698703
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.7262465325575 0 41.84372295749657
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.02850361663602 0 43.70957624067465
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.94110367309063 0 45.37812255874545
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 55.516785055011525 0 46.76894853653667
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 53.823955395071636 0 47.81494291896999
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 51.9438705517758 0 48.46568915329761
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 49.96634468539009 0 48.6924046138569
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.985317633754185 0 48.49110371513369
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 46.09388505133648 0 47.86594164254435
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 44.3845431018803 0 46.84363106798202
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.93964498462708 0 45.47396726766058
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.8289219917691 0 43.82273300038761
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.10590953909625 0 41.96920907555726
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 40.96943072598693 0 41.38228521105415
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 40.79698025260562 0 39.3990996287701
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.05239946217352 0 37.424174726784095
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.73000252746093 0 35.550905466269626
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.79941118567755 0 33.870729331319716
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 44.208697518907464 0 32.46461131421088
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 45.890177831482276 0 31.400404949607886
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.76313548697325 0 30.729402985705434
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 49.73806753808059 0 30.481702622792138
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 51.72104965756714 0 30.662073933786925
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 53.6191109622646 0 31.266825633444387
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 55.33937579440372 0 32.27070845359977
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.79896860275 0 33.62476654509798
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.927448944615946 0 35.26396239854831
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.67042259425479 0 37.1095868001958
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.99331166123864 0 39.073358885514004
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.00158142456209 0 39.90144933562437
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.01376446387808 0 41.1171522967599
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.24423636630191 0 40.65092181201065
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.271870901192756 0 39.67421754236261
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.31881419853352 0 38.68990824464685
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.369627474375264 0 37.704397694163355
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.41535131833284 0 36.70987890108333
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.463840302525725 0 35.7169011700461
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.514755336191634 0 34.724835065450264
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.56240703090112 0 33.73209265859106
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.61207658639082 0 32.74714072894353
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.66222996050082 0 31.766107873398813
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.71417118800365 0 30.792521690580806
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.77129924134408 0 29.82898518920695
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.8407707183959 0 28.877839903041753
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.03060232308533 0 28.815914982665817
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.03952862870056 0 30.596853231335285
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.034520525174415 0 32.41719972215187
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.02928532150064 0 34.253005168914235
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.02366679116635 0 36.108708981884696
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.018818688758195 0 37.9997940691833
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.01705348384688 0 38.624146793713365
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.01674333558428 0 38.64098771725206
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.00451931260067 0 39.874612247052205
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.92939463906997 0 41.86000954985393
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.468577858729645 0 43.802721927575455
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.63454048691769 0 45.61693075370734
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.4599039513686 0 47.231224188277785
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 55.99132098302401 0 48.582746296290026
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 54.285937477531625 0 49.61857668759485
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 52.40999764307397 0 50.29779824719124
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 50.43665616488713 0 50.595327837462484
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 48.44263209635514 0 50.503906050382454
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 46.504064992632095 0 50.02584992854526
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 44.697384318812816 0 49.17564681621869
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 43.09364150786156 0 47.986682649769314
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.75528281165215 0 46.50613165142887
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 40.73473648996619 0 44.791577064461094
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 40.0723073299802 0 42.90964395144004
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 39.82044503780512 0 41.37111594548077
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 39.8440022897476 0 39.37518236925138
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 40.25523577549318 0 37.421445406775334
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 41.04253900442752 0 35.58645114338831
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 42.17555513383831 0 33.94260651015738
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 43.609168148859546 0 32.55392782242629
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 45.28750356618881 0 31.474728007863913
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 47.14542496332833 0 30.747642251792808
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 49.11045977158707 0 30.400117131198904
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 51.106121084729715 0 30.44122229512219
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 53.0561608455394 0 30.869761569124243
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 54.88404583921759 0 31.67341659761511
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 56.517709393399926 0 32.82102888491844
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 57.893537592516374 0 34.26693940830997
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.95769859849951 0 35.95482814702236
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.66815047726105 0 37.81917031940546
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 59.99826002398827 0 39.78724649021546
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.00533589097237 0 39.89993225571411
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.01591089467708 0 41.13425815154596
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.24260915210147 0 40.62911828401652
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.27246338716331 0 39.65396750526349
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.318366799352226 0 38.67121552041145
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.36496329736317 0 37.68269269296469
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.41399815342207 0 36.69367106493293
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.46466933044953 0 35.703663747906454
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.51538480679812 0 34.712090509909075
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.566242622828355 0 33.71942357282947
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.61673977960262 0 32.73458102831395
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.66886575618396 0 31.75383737117795
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.71994067444309 0 30.780610518679396
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.77633559079354 0 29.814799167094147
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.842249484712774 0 28.86386933622406
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.690646547122405 0 28.8707889215686
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.76055582908879 0 30.641332504075777
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.81114481007089 0 32.459686351818725
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.861904460700934 0 34.29350895255139
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.91287985965556 0 36.148403213469535
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.96523166820375 0 38.0375627540831
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.981516733704616 0 38.624470337500085
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.98217403413558 0 38.643547055219706
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.994232760146616 0 39.90162649380641
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.002835218675294 0 40.86330629945288
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.88655872611885 0 40.97680086270919
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.12352941854338 0 40.032939825080156
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.24829318626842 0 39.060568481880004
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.32740287372885 0 38.07701607404172
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.389792970221485 0 37.08520434966927
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.44297233504454 0 36.093776965536065
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.494061670055316 0 35.103736156151854
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.543536429532416 0 34.10929404900561
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.59546992619793 0 33.1221564429771
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.64443457069512 0 32.13880943254723
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.69544537428134 0 31.16166519847966
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.748580752733915 0 30.192351007383667
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.813340514289045 0 29.235291718323108
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.02865676715902 0 28.811344407865533
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.96923296592128 0 29.007937127019527
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.892514239188536 0 30.684838552008337
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.89731558172575 0 32.50437775812605
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.90237814943341 0 34.338637317905246
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.90806024717758 0 36.19002233284599
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.913067496186166 0 38.078769239202444
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.91452558286588 0 38.627336341331805
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.91472807219642 0 38.64433402299404
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 61.99167866409581 0 39.8878924799261
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.005382026171496 0 40.85062551430021
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.231036741092865 0 41.07094793883536
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.256447380120264 0 40.09670700422338
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.29337736003984 0 39.11668149360545
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.34291800040038 0 38.128914357415255
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.39261272095213 0 37.14025123037976
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.4420499737972 0 36.146575021483386
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.49289460756381 0 35.15678314861812
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.54273944140168 0 34.16650081956907
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.591582538001866 0 33.17583947886473
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.64262681549733 0 32.19416167877634
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.69515138945552 0 31.21715578921511
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.74787572082928 0 30.244749334910864
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.81012565970699 0 29.292887317642037
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.031602828498485 0 28.81264364226135
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.966263481313185 0 29.005605052405862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.89203303060086 0 30.68692420283312
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.89730619206231 0 32.50639910852697
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.90296672905374 0 34.340508054046516
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.90902188196361 0 36.1934811614561
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.914601999431966 0 38.08162645874063
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.91622102992162 0 38.62408111175355
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.91618738859777 0 38.6431473855056
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.99582830184396 0 39.893919999207235
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.004320004534435 0 40.852630785523694
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 62.89927759840689 0 40.923607403098934
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.12879833657021 0 39.97800105571888
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.25213362742468 0 39.000427531121716
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.33295273554869 0 38.01399655703002
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.3936577273777 0 37.02253029538539
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.44872043217987 0 36.03024101367411
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.498070342390186 0 35.04016732823434
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.548313886663664 0 34.04736715515341
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.597763553827384 0 33.06097059275666
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.64985899806922 0 32.07781066706587
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.70251871926347 0 31.101735700204415
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.75673028060207 0 30.128226952456895
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.81789757731516 0 29.17533820110991
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.0300222234613 0 28.812410060734763
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.97069807817946 0 29.006798560235097
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.88979565822836 0 30.680306813139534
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.89447189594708 0 32.49937181929441
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.89945831400459 0 34.33355218444886
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.90477839086275 0 36.18676517999497
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.909663699503284 0 38.074071308540404
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.91104025629765 0 38.62265785475758
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.91124107778128 0 38.639655569553085
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.99161846505508 0 39.90066855481949
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.00656848570203 0 40.89393651905006
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.23424872010722 0 40.89558247892156
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.26199380314371 0 39.92098987013512
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.30146223220405 0 38.93704911829565
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.34911412543956 0 37.94853195022173
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.3979853061202 0 36.96024097468557
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.45027164344829 0 35.9681946403867
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.50148550323466 0 34.974999506853976
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.55402273482731 0 33.98452723292271
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.60263863963014 0 32.99921495339193
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.65216358062226 0 32.01549392279964
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.70386766621496 0 31.04056614848352
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.75972650653387 0 30.069988661594184
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.82234035773128 0 29.116739359357847
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0 0.5
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 65.04157808332485 0 28.815706774534455
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.97791337226667 0 29.014272853192296
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.8989823802062 0 30.69211132309158
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.90252107373225 0 32.51123659292954
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.90621618768932 0 34.345536678421844
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.91034223671375 0 36.197960175099546
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.91357543802852 0 38.086709903804085
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.914635966158 0 38.62201633630314
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 64.91492396886761 0 38.63882282049994
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 63.139537532953646 0 39.02669265876077
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 60.95413112791596 0 39.2414319070132
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}
+Transform {
+  translation 58.7554246561238 0 39.4570204019346
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.2
+      }
+    }
+  ]
+}

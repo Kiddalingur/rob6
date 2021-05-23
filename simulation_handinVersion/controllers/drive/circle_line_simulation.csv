@@ -1,0 +1,7 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+1,1,1,10,10,35,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg ,
+2,2,2,35,30,35,10,20,20,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg ,
+3,3,1,50,10,90,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg ,
+4,4,1,90,10,90,50,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg ,
+5,5,2,110,50,90,50,20,200,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg ,
+6,6,1,90,70,90,100,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg ,

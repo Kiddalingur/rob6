@@ -1,0 +1,25 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+0,0,0,35,50,50,50,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+0,0,0,50,50,415,50,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+1,1,0,415,50,430,50,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+0,0,4,430,50,230.915,157.385,-nan(ind),-nan(ind),440,50,239.622,152.466,-nan(ind),0,travel 
+1,1,0,230.915,157.385,217.855,164.763,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+1,4,1,232.5,187.5,217.855,164.763,27,27,-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,1,drawn_seg 
+2,2,0,217.855,164.763,216.984,165.255,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+1,1,4,216.984,165.255,232.5,35,-nan(ind),-nan(ind),196.088,177.06,232.5,-325,-nan(ind),0,travel 
+2,2,0,232.5,35,232.5,50,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+2,5,0,232.5,50,232.5,325,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+3,3,0,232.5,325,232.5,326,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+2,2,4,232.5,326,50,340,-nan(ind),-nan(ind),232.5,350,50,700,-nan(ind),0,travel 
+3,3,0,50,340,50,325,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+3,3,0,50,325,50,50,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+3,3,0,50,50,50,49,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+3,3,4,50,49,415,35,-nan(ind),-nan(ind),50,25,415,-325,-nan(ind),0,travel 
+4,4,0,415,35,415,50,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+4,1,0,415,50,415,325,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+4,4,0,415,325,415,326,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+4,4,4,415,326,430,325,-nan(ind),-nan(ind),415,350,790,325,-nan(ind),0,travel 
+5,5,0,430,325,415,325,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+5,2,0,415,325,50,325,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+6,6,0,50,325,49,325,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+6,6,4,49,325,35,50,-nan(ind),-nan(ind),25,325,-325,50,-nan(ind),0,travel 

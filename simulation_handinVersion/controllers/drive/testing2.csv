@@ -1,0 +1,6 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+
+21,1,700,550,677.917,639.064,91.5,91.5,-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,1,drawn_seg
+22,1,700,550,700.743,550.104,0.75,0.75,-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,1,drawn_seg
+23,1,210,550,209.986,549.25,0.75,0.75,-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,1,drawn_seg
+24,1,1190,550,1190,550.75,0.75,0.75,-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,1,drawn_seg

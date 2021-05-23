@@ -1,0 +1,15 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+0,0,0,60,3,70,3,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+1,1,0,85,10,85,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+2,2,0,84,25,84,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+3,3,0,86,10,86,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+4,4,0,83,25,83,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+5,5,0,87,10,87,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+6,6,0,82,25,82,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+7,7,0,88,10,88,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+8,8,0,81,25,81,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+9,9,0,89,10,89,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+10,10,0,90,25,80,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+11,11,0,80,25,80,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+12,12,0,80,10,90,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+13,1,3,80,10,10,15,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,1,drawn_seg 

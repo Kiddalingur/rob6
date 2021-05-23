@@ -1,0 +1,58 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  FPS 25
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.4202316574169154 0.8984636782713287 0.12715491705705528 5.509221881474492
+  position 69.67580500414905 5.7136111244804315 24.152699721691583
+  follow "TIAGo Base"
+}
+Background {
+  skyColor [
+    0.376471 0.376471 0.376471
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+Floor {
+  translation 50 0 30
+  size 500 500
+  tileSize 1 1
+  appearance Grass {
+    IBLStrength 1.8
+  }
+}
+TiagoBase {
+  translation 80 0.0929162 10
+  rotation -0.5780008664468462 -0.5760458668985694 -0.5780018664466152 2.09635
+  controller "drive"
+  supervisor TRUE
+  bodySlot [
+    Pen {
+      translation 0 -0.28 0
+      name "pen_paint"
+      locked TRUE
+      radarCrossSection 1
+      inkColor 1 1 1
+      inkDensity 0.8980392156862745
+      leadSize 23
+      maxDistance 50
+    }
+    InertialUnit {
+      name "inertial_unit"
+    }
+    Lidar {
+      translation 0 0 0.25
+      rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 -2.0943956132800112
+      name "top_lidar"
+      fieldOfView 6.28
+      verticalFieldOfView 0.1
+      numberOfLayers 1
+      minRange 0.3
+      maxRange 10
+    }
+  ]
+}
