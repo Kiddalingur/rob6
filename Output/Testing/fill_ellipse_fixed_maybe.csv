@@ -1,0 +1,22 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+0,0,0,60,3,70,3,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+1,1,0,80,70,120,70,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+2,2,0,119,71,81,71,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+3,3,0,81,69,119,69,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+4,4,0,119,72,81,72,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+5,5,0,81,68,119,68,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+6,6,0,119,73,81,73,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+7,7,0,81,67,119,67,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+8,8,0,118,74,82,74,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+9,9,0,82,66,118,66,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+10,10,0,117,75,83,75,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+11,11,0,83,65,117,65,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+12,12,0,115,76,85,76,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+13,13,0,85,64,115,64,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+14,14,0,114,77,86,77,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+15,15,0,86,63,114,63,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+16,16,0,111,78,89,78,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+17,17,0,89,62,111,62,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+18,18,0,108,79,92,79,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+19,19,0,92,61,108,61,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+20,1,2,100,70,100,80,20,10,#NAME?,#NAME?,#NAME?,#NAME?,1,1,drawn_seg 

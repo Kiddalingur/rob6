@@ -1,0 +1,17 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+0,0,0,52,10,40,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,pre-pattern 
+0,0,0,40,10,10,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+0,0,0,10,10,-2,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,post-pattern 
+0,0,4,-2,10,62,10,#NAME?,#NAME?,-7,10,67,10,#NAME?,0,travel 
+1,1,0,62,10,50,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,pre-pattern 
+1,1,0,50,10,10,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+1,1,0,10,10,-2,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,post-pattern 
+1,1,4,-2,10,72,10,#NAME?,#NAME?,-7,10,77,10,#NAME?,0,travel 
+2,2,0,72,10,60,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,pre-pattern 
+2,2,0,60,10,10,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+2,2,0,10,10,-2,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,post-pattern 
+2,2,4,-2,10,82,10,#NAME?,#NAME?,-7,10,87,10,#NAME?,0,travel 
+3,3,0,82,10,70,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,pre-pattern 
+3,3,0,70,10,10,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,1,drawn_seg 
+4,4,0,10,10,-2,10,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,#NAME?,0,post-pattern 
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,travel 

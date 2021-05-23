@@ -1,0 +1,92 @@
+Welcome to Turf Tanks SVG to Path converter v.3.2!
+__________________________________________________
+__________________________________________________
+Select the speed of the robot, enter:
+   1 - for 1m/s
+   2 - for 0,65m/s
+   3 - for 0,35m/s
+1
+   1 - for 1m/s, is selected
+
+__________________________________________________
+Select choice of algorithm, enter:
+   1 - for fast algorithm
+1
+good, choice
+Fast algorithm is selected
+
+__________________________________________________
+What should the robot draw:
+   1 - outlines only
+   2 - everything (outlines and fill)
+1
+outlines only is selected
+
+__________________________________________________
+which details should the CSV file have
+   1 - only segmentes which should be drawn
+   2 - everything (segmentes which should be drawn, pre-patterns, post-patterns, travels inbetween patterns)
+2
+everything is selected
+
+__________________________________________________
+enter length of pre-pattern in cm
+3
+pre-pattern length selected: 3
+
+__________________________________________________
+enter length of post-pattern in cm
+3
+pre-pattern length selected: 10
+
+__________________________________________________
+Should the robot drive back to the start possition
+   1 - yes
+   2 - no
+1
+yes is selected
+
+__________________________________________________
+Secect a demo path by entering one of the following numbers or enter the path/name.svg.
+   1 - input/Football_field_v1,0.svg
+   2 - input/Football_field_v1,1.svg
+   3 - input/Football_field_v2,1.svg
+   4 - input/Football_field_v2,12.svg
+   5 - input/Football_field_v2,2.svg
+   6 - input/Football_field_v2,3.svg
+   7 - input/final_logo_polygon.svg
+   8 - input/FinalTest_field.svg
+   9 - input/simple_shaps.svg
+   0 - input/Random_path.svg
+7
+input/final_logo_polygon.svg - is selected
+
+__________________________________________________
+enter name of output file [eks: first_output]
+Do not use spaces in the name
+finalfinal_logo_tt
+Name of outputfile is: finalfinal_logo_tt
+Reading input File:
+  ||####################################||
+  |__________________________________________|
+Algorithm Processbar
+   ||   ||############################################################################||
+Add travels [Processbar]
+   ||   ||###########################################################################||
+
+
+############################################
+# Total distance driving: -nan(ind)m
+# Total distance drawing: 432.964m
+# Total distance driven with out drawing: -nan(ind)m
+# Set driving speed of the robot: 17155571
+# Estimated driving time: -nan(ind)sec || -nan(ind) Min || -nan(ind) hours
+# Estimated drawing time: 432.964sec || 7.21607 Min || 0.120268 hours
+# Estimated driven time with out drawing: -nan(ind)sec || -nan(ind) Min || -nan(ind) hours
+############################################
+
+Output is save here: Output/finalfinal_logo_tt.csv
+
+D:\Uni\6sem\sem_project\code\readSVG_convert\Debug\readSVG_convert.exe (Prozess "21468") wurde mit Code "0" beendet.
+Um die Konsole beim Beenden des Debuggens automatisch zu schließen, aktivieren Sie "Extras" > "Optionen" > "Debuggen" > "Konsole beim Beenden des Debuggings automatisch schließen".
+Drücken Sie eine beliebige Taste, um dieses Fenster zu schließen.

@@ -1,0 +1,17 @@
+new_order,old_order,line-type,p1_x,p1_y,p2_x,p2_y,rx,ry,bezier p3_x,bezier p3_y,bezier p4_x,bezier p4_y,filled,work,travle_type
+0,0,0,-2,10,10,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+0,0,0,10,10,50,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+0,0,0,50,10,62,10,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+0,0,4,62,10,-2,25,-nan(ind),-nan(ind),67,10,-7,25,-nan(ind),0,travel 
+1,1,0,-2,25,10,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+1,1,0,10,25,60,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+1,1,0,60,25,72,25,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+1,1,4,72,25,-2,40,-nan(ind),-nan(ind),77,25,-7,40,-nan(ind),0,travel 
+2,2,0,-2,40,10,40,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+2,2,0,10,40,70,40,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+2,2,0,70,40,82,40,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+2,2,4,82,40,-2,45,-nan(ind),-nan(ind),87,40,-7,45,-nan(ind),0,travel 
+3,3,0,-2,45,10,45,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,pre-pattern 
+3,3,0,10,45,80,45,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),1,drawn_seg 
+4,4,0,80,45,92,45,-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),-nan(ind),0,post-pattern 
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,travel 
