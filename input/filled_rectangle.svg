@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+ 
+ 
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="500" height="500" viewBox="500 500"
+ preserveAspectRatio="xMidYMid meet">
+	<line x1="60" y1="3" x2="70" y2="3" style="stroke:rgb(255,0,0);stroke-width:2" />
+  
+	
+	<rect x="80" y="10" width="10" height="15" style="fill:rgb(0,0,0);stroke-width:3;stroke:rgb(0,0,0)" />
+  
+  
+  
+  
+
+</svg> 

@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+ 
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1400" height="1100" viewBox="500 500"
+ preserveAspectRatio="xMidYMid meet">
+
+<rect x="100" y="100" width="1200" height="900" style="fill:none;stroke:black;stroke-width:3;fill-opacity:0.1;stroke-opacity:1" />
+
+
+<polygon points="100,348.5 265,348.5 265,751.5, 100,751.5" style="fill:transparent;stroke:black;stroke-width:3" />
+
+
+<polygon points="1300,348.5 1300,751.5 1135,751.5, 1135,348.5 130" style="fill:transparent;stroke:black;stroke-width:3" />
+
+
+
+
+  <polyline points="100,458.5 155,458.5 155,641.5 100,641.5"
+  style="fill:none;stroke:black;stroke-width:3" />
+
+  
+   <polyline points="1300,458.5 1245.5,458.5 1245,641.5 1300,641.5 "
+  style="fill:none;stroke:black;stroke-width:3" />
+  
+
+<line x1="700" y1="100" x2="700" y2="1000" style="stroke:rgb(0,0,0);stroke-width:2" />
+
+<circle cx="700" cy="550" r="91.5" stroke="black" stroke-width="4" fill="none" />
+<circle cx="700" cy="550" r="0.75" stroke="black" stroke-width="4" fill="black" />
+
+<circle cx="210" cy="550" r="0.75" stroke="black" stroke-width="4" fill="black" />
+<circle cx="1190" cy="550" r="0.75" stroke="black" stroke-width="4" fill="black" />
+
+
+<path d="M 265 470 C 310 500 310 600 265 630" style="fill:transparent;stroke:black;stroke-width:3;"/>
+<path d="M 1135 470 C 1090 500 1090 600 1135 630" style="fill:transparent;stroke:black;stroke-width:3;"/>
+
+<path d="M 100 200 C 160 200, 200 160, 200 100" stroke="black" fill="transparent" stroke-width="3"/>
+
+<path d="M 1200 100 C 1200 160, 1240 200, 1300 200" stroke="black" fill="transparent" stroke-width="3"/>
+
+<path d="M 1300 900 C 1240 900, 1200 940, 1200 1000" stroke="black" fill="transparent" stroke-width="3"/>
+
+<path d="M 100 900 C 160 900, 200 940, 200 1000" stroke="black" fill="transparent" stroke-width="3"/>
+
+ <path d="M 100 513.5 H  " fill="transparent" stroke="black" stroke-width="2"/>
+
+ <polyline points="100,513.5 70,513.5 70,586.5 100,586.5 "
+  style="fill:none;stroke:black;stroke-width:3" />
+
+  <polyline points="1300,513.5 1330,513.5 1330,586.5 1300,586.5"
+  style="fill:none;stroke:black;stroke-width:3" />
+  
+
+</svg>

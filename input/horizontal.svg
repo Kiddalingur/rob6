@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+width="500" height="500" viewBox="500 500"
+ preserveAspectRatio="xMidYMid meet">
+ 
+ <path d="M 10 10 H 50 " fill="transparent" stroke="black" stroke-width="2"/>
+
+ <path d="M 10 25 H 60 " fill="transparent" stroke="black" stroke-width="2"/>
+
+ <path d="M 10 40 H 70 " fill="transparent" stroke="black" stroke-width="2"/>
+ 
+ <path d="M 10 45 H 80 " fill="transparent" stroke="black" stroke-width="2"/>
+
+
+
+</svg>
+
+</body>
+</html>

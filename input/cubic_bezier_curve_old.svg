@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+		width="500" height="500" viewBox="500 500"
+		 preserveAspectRatio="xMidYMid meet">
+			
+
+		<path d="M 10 60 C 10 122.5, 110 122.5, 110 60" stroke="black" fill="transparent" stroke-width="2"/>
+
+
+        
+		<path d="M 150 110 C 180 60, 180 60, 210 10" stroke="black" fill="transparent" stroke-width="2"/>
+		<path d="M 10 160 C 10 260, 110 160, 110 260" stroke="black" fill="transparent" stroke-width="2"/>
+
+
+
+	<path d="M 150 210 C 150 240, 170 260, 200 260" stroke="black" fill="transparent" stroke-width="2"/>
+
+	</svg>
+
+	</body>
+	</html>

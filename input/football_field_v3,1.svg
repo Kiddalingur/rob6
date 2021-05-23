@@ -1,0 +1,41 @@
+ <?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+ 
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1400" height="1100" viewBox="1400 1100"
+ preserveAspectRatio="xMidYMid meet">
+
+<rect x="100" y="100" width="1200" height="900" style="fill:white;stroke:black;stroke-width:3;fill-opacity:0.1;stroke-opacity:1" />
+
+<polyline points="100,348.5 265,348.5 265,751.5 100,751.5" style="fill:none;stroke:black;stroke-width:3" />
+
+<polygon points="1300,348.5 1135,348.5 1135,751.5 1300,751.5" style="fill:none;stroke:black;stroke-width:2" />
+
+<rect x="100" y="458.5" width="55" height="183" style="fill:white;stroke:black;stroke-width:3;fill-opacity:0.1;stroke-opacity:1" />
+
+<rect x="1245" y="458.5" width="55" height="183" style="fill:white;stroke:black;stroke-width:3;fill-opacity:0.1;stroke-opacity:1" />
+
+
+
+<ellipse cx="265" cy="550" rx="30" ry="90"  style="fill:none;stroke:black;stroke-width:2" />
+<ellipse cx="1135" cy="550" rx="30" ry="90"  style="fill:none;stroke:black;stroke-width:2" />
+
+
+<line x1="700" y1="100" x2="700" y2="1000" style="stroke:rgb(0,0,0);stroke-width:2" />
+
+<circle cx="700" cy="550" r="91.5" stroke="black" stroke-width="4" fill="none" />
+<circle cx="700" cy="550" r="0.75" stroke="black" stroke-width="4" fill="black" />
+
+<circle cx="210" cy="550" r="0.75" stroke="black" stroke-width="4" fill="black" />
+<circle cx="1190" cy="550" r="0.75" stroke="black" stroke-width="4" fill="black" />
+
+
+</svg>
+
+</svg> 
+ 
+</body>
+</html>

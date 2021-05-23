@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+ 
+ 
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="500" height="500" viewBox="500 500"
+ preserveAspectRatio="xMidYMid meet">
+	<line x1="60" y1="3" x2="70" y2="3" style="stroke:rgb(255,0,0);stroke-width:2" />
+  
+    <ellipse cx="100" cy="70" rx="10" ry="20"  stroke="black" stroke-width="4" fill="black" />
+  
+	<path d="M 73.40824,121.84769 C 135.58696,-10.074118 290.16893,20.480732 326.09238,120.34956" style="fill:none;stroke:black;stroke-width:3;"/>
+
+  
+  
+
+</svg> 

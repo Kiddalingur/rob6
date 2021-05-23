@@ -1,0 +1,111 @@
+﻿  readSVG_convert.cpp
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(98,34): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(109,48): warning C4018: ">": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(124,43): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(124,62): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(129,27): warning C4101: "e": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(152,34): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(155,75): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(162,48): warning C4018: ">": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(178,42): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(178,61): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(186,29): warning C4101: "pos_counter": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(198,29): warning C4101: "pos_counter": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(215,25): warning C4101: "pos_counter": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(225,27): warning C4101: "e": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(250,34): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(253,75): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(260,48): warning C4018: ">": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(275,42): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(275,61): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(236,10): warning C4101: "found": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(765,27): warning C4101: "e": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(790,34): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(793,75): warning C4018: ">=": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(801,48): warning C4018: ">": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(817,42): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(817,61): warning C4838: Konvertierung von "unsigned int" zu "int" erfordert eine einschränkende Konvertierung
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(859,34): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(860,38): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(777,10): warning C4101: "found": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(835,25): warning C4101: "pos_counter": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(900,31): warning C4101: "e": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(1792,17): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2154,12): warning C4244: "return": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2207,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2232,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2232,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2232,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2232,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2232,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2232,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2251,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2251,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2251,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2251,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2251,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2251,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2299,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2299,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2299,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2299,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2299,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2299,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2318,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2318,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2318,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2318,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2318,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2318,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2448,92): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2448,89): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2448,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2448,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2448,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2448,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2467,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2467,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2467,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2467,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2467,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2467,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2512,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2512,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2512,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2512,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2512,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2512,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2532,93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2532,90): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2532,84): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2532,72): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2532,62): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2532,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2657,58): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2666,26): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2667,30): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2767,26): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2768,30): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3539,30): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3625,38): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,258): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,233): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,208): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,183): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,158): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,132): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,106): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3637,80): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3796,51): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3797,57): warning C4244: "=": Konvertierung von "long double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3833,51): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3834,57): warning C4244: "=": Konvertierung von "long double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3889,45): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3934,50): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(4094,38): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(4117,34): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3589,12): warning C4101: "angle_weight": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3916,12): warning C4101: "temp_added_dis": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(3584,17): warning C4101: "anlge_array": Unreferenzierte lokale Variable
+D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\readSVG_convert\readSVG_convert.cpp(2042): warning C4715: "fill_pattern_func": Nicht alle Codepfade geben einen Wert zurück.
+  readSVG_convert.vcxproj -> D:\Uni\6sem\sem_project\code\readSVG_convert_hand_in_version\Debug\readSVG_convert.exe

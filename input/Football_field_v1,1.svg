@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+ 
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="500" height="500" viewBox="500 500"
+ preserveAspectRatio="xMidYMid meet">
+
+<rect x="50" y="50" width="365" height="275" style="fill:white;stroke:black;stroke-width:3;fill-opacity:0.1;stroke-opacity:1" />
+  
+<circle cx="232.5" cy="187.5" r="27" style="fill:transparent;stroke:black;stroke-width:3" />
+
+<path d="M 50 127.5 C 130 127.5, 130 247.5, 50 247.5" style="fill:transparent;stroke:black;stroke-width:3;"/>
+
+<path d="M 415 127.5 C 335 127.5, 335 247.5, 415 247.5" style="fill:transparent;stroke:black;stroke-width:3;"/>
+
+ <line x1="232.5" y1="50" x2="232.5" y2="325" style="stroke:rgb(0,0,0);stroke-width:3" />
+
+
+</svg>

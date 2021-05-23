@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+
+ 
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="500" height="500" viewBox="500 500"
+ preserveAspectRatio="xMidYMid meet">
+ 
+	<line x1="27" y1="90" x2="123" y2="90" style="stroke:rgb(0,0,0);stroke-width:1" />
+	
+	
+
+	<path d="M 35 50 C 50 20 100 20 115 50 C 90 30 60 30 35 50" style="fill:none;stroke:black;stroke-width:1"/>
+	<path d="M 45 60 C 60 30 90 30 105 60 C 95 40 55 40 45 60" style="fill:none;stroke:black;stroke-width:1"/>
+	<path d="M 55 70 C 60 40 90 40 95 70 C 90 50 60 50 55 70" style="fill:none;stroke:black;stroke-width:1"/>
+	
+	<path d="M 30 75 H 39 V 78 H 36 V 84 H 33 V 78 H 30 Z" fill="transparent" stroke="black"/>
+	<path d="M 42 75 V 82 L 44 84 H 49 L 51 82 V 75 H 48 V 81 H 45 V 75 Z" fill="transparent" stroke="black"/>
+	<path d="M 54 75 V 84 H 57 V 81 L 60 84 H 63 L 60 80 H 63 V 75 Z" fill="transparent" stroke="black"/>
+	<path d="M 66 75 V 84 H 69 V 82 H 72 V 80 H 69 V 78 H 74 V 75 Z" fill="transparent" stroke="black"/>
+	
+	<path d="M 79 75 H 88 V 78 H 85 V 84 H 82 V 78 H 79 Z" fill="transparent" stroke="black"/>
+	<path d="M 90 84 H 93 V 81 H 96 V 84 H 99 L 96 75 H 93 Z" fill="transparent" stroke="black"/>
+	<path d="M 102 75 H 105 L 108 79 V 75 H 111 V 84 H 108 L 105 80 V 84 H 102 Z" fill="transparent" stroke="black"/>
+	<path d="M 114 75 H 117 V 78 L 120 75 H 123 V 78 L 120 80 L 123 84 H 120 L 117 81 V 84 H 114 Z" fill="transparent" stroke="black"/>
+	
+	
+	
+  
+	
+</svg>
